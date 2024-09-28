@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static  Resume Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styling for the form */
+        form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #e822b3;
+            border-radius: 5px;
+            background-color: hsl(32, 38%, 84%);
+        }
+        fieldset {
+            border: 1px solid #6f4dc4;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        legend {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #3c281b;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #462104;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            resize: vertical;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #e4168b;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #79156f;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>STATIC RESUME FROM</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="father-name">Father's Name:</label>
+            <input type="text" id="father-name" name="father-name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="it-course">IT Course:</label>
+            <input type="text" id="it-course" name="it-course">
+
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" rows="4"></textarea>
+
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" name="skills">
+
+            <label for="qualification">Qualification:</label>
+            <input type="text" id="qualification" name="qualification">
+
+            <label for="school">School:</label>
+            <input type="text" id="school" name="school">
+
+            <label for="college">College:</label>
+            <input type="text" id="college" name="college">
+
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university">
+
+            <label for="language">Language:</label>
+            <input type="text" id="language" name="language">
+
+            <label for="religion">Religion:</label>
+            <input type="text" id="religion" name="religion">
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
